@@ -81,6 +81,11 @@
     box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
   }
 
+  .done {
+    text-decoration: line-through;
+    color: rgba(225, 8, 8, 0.537);
+  }
+
   /* .pin-btn {
       font: 800;
       margin-left: 10px;
