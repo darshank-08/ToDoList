@@ -9,7 +9,7 @@ function ToDoList(){
     function handleInputChange(event) {
         const input = event.target.value;
         setNewTask({ text: input, completed: false });  // update state
-        console.log(input);
+
     }
 
     function toggleTask(index) {
